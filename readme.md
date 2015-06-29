@@ -1,8 +1,6 @@
 Git Lab
 ==
 
-**TODO**
-
 1. Revert and revert a merge (@ revert_branch)
 	* revert 4f7f2fd81 
 	* revert f544a5d9a (Oops..)
