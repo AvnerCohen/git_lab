@@ -7,7 +7,7 @@ Git Lab
   * revert 4f7f2fd81
   * revert f544a5d9a (Oops..)
 
-2. Stash, List, Apply, Pop (use: stash_branch)
+2. Stash, List, Apply, Pop, Clear (use: stash_branch)
   * git stash save 'bla'
   * git list
 
@@ -18,15 +18,11 @@ Git Lab
 
 5. reflog (use: reflog_branch)
 
-6. git comments
-  * --ammend
-
-**Additionals**
-
 6. git config
   * git config --global -l
-  * alias.lg "log --abbrev-commit --author="
+  * git config alias.lg "log --abbrev-commit --author="
 
 7. git client side hooks
+  * ln -s ../pre-commit.sh .git/hooks/pre-commit
 
-8. gitk
+8. github
